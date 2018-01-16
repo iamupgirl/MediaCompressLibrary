@@ -89,10 +89,3 @@ JNIEXPORT jstring JNICALL Java_com_sherry_ffmpegdemo_FfmpegKit_configure(JNIEnv 
 
     return (*env)->NewStringUTF(env, info);
 }
-
-
-JNIEXPORT jstring JNICALL Java_com_sherry_ffmpegdemo_FfmpegKit_getSecret
-  (JNIEnv *env, jclass) {
-
-
-}
