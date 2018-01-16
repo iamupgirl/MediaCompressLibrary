@@ -23,14 +23,6 @@ JNIEXPORT jint JNICALL Java_com_sherry_ffmpegdemo_FfmpegKit_run
 JNIEXPORT jstring JNICALL Java_com_sherry_ffmpegdemo_FfmpegKit_configure
   (JNIEnv *, jclass);
 
-/*
- * Class:     com_sherry_ffmpegdemo_FfmpegKit
- * Method:    getSecret
- * Signature: ()Ljava/lang/String;
- */
-JNIEXPORT jstring JNICALL Java_com_sherry_ffmpegdemo_FfmpegKit_getSecret
-  (JNIEnv *, jclass);
-
 #ifdef __cplusplus
 }
 #endif
