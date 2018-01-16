@@ -44,7 +44,4 @@ public class FfmpegKit {
     }
 
     public static native String configure();
-
-    public static native String getSecret();
-
 }
